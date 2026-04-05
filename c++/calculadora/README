@@ -1,0 +1,34 @@
+Calculadora em C++
+Sobre:
+Programa simples em C++ que funciona como uma calculadora no terminal.
+Permite realizar operações básicas de matemática por meio de um menu interativo.
+
+Funcionalidades:
+Somar
+Subtrair
+Multiplicar
+Dividir (com verificação de divisão por zero)
+Opção para sair
+
+Como usar:
+Salve o código em calculadora.cpp.
+
+Compile:
+bash
+g++ calculadora.cpp -o calculadora
+Execute:
+
+bash
+./calculadora
+Exemplo
+Código
+=== MENU ===
+1 - Somar
+2 - Subtrair
+3 - Multiplicar
+4 - Dividir
+0 - Sair
+Escolha uma opcao: 1
+Digite o primeiro numero: 10
+Digite o segundo numero: 5
+Resultado: 15
