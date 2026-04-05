@@ -1,8 +1,9 @@
 O Cemitério Sem Fim – RPG em C++
 
 RPG de terminal desenvolvido em C++, com foco em lógica de programação, organização estrutural e controle de fluxo.
-
 O projeto implementa combate em turnos, geração probabilística de inimigos e sistema de progressão de personagem.
+
+Projeto desenvolvido 100% no celular, utilizando apenas C++ e compilador.
 
 Visão Geral
 O jogo funciona em um loop contínuo onde o jogador:
