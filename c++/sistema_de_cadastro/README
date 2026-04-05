@@ -1,0 +1,31 @@
+Sistema de Cadastro e Login em C++
+Sobre:
+Programa em C++ que simula um sistema básico de cadastro e login de contas.
+As contas são armazenadas em memória (sem banco de dados real) e cada usuário recebe um ID único ao se cadastrar.
+
+Funcionalidades:
+Criar conta com senha e ID automático
+Fazer login com ID e senha
+Mostrar lista de IDs cadastrados
+Menu interativo para navegação
+
+Como usar:
+Salve o código em login.cpp.
+
+Compile:
+bash
+g++ login.cpp -o login
+Execute:
+
+bash
+./login
+Exemplo
+Código
+--- MENU ---
+1 - Fazer login
+2 - Fazer cadastro
+3 - Mostrar contas
+0 - Sair
+Escolha uma opção: 2
+Crie sua senha: 1234
+Conta criada com sucesso! Seu ID é: 1
