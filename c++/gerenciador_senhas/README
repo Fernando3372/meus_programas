@@ -46,15 +46,15 @@ Nome do serviço (ex: gmail)
 Senha
 A senha será criptografada e salva no arquivo senhas.bin.
 
-4️Buscar senha (Read)
+Buscar senha (Read)
 Escolha a opção 2 e informe o serviço.
 A senha será lida do arquivo e descriptografada apenas para exibição.
 
-5️Listar serviços (Read)
+Listar serviços (Read)
 Escolha a opção 3.
 Exibe todos os serviços cadastrados (sem mostrar as senhas).
 
-6️Remover senha (Delete)
+Remover senha (Delete)
 Escolha a opção 4 e informe o serviço.
 O registro será marcado como deletado, sem apagar fisicamente o arquivo (conceito usado em bancos de dados reais).
 
