@@ -1,0 +1,31 @@
+Calculadora de IMC em C++
+Sobre:
+Programa simples em C++ que calcula o Índice de Massa Corporal (IMC) a partir do peso e altura informados pelo usuário.
+O resultado é exibido junto com a classificação correspondente.
+
+Funcionalidades:
+Entrada de peso (kg) e altura (cm)
+Cálculo automático do IMC
+Exibição da classificação:
+Abaixo do peso
+Peso ideal
+Sobrepeso
+Obesidade
+
+Como usar:
+Salve o código em imc.cpp.
+
+Compile:
+bash
+g++ imc.cpp -o imc
+Execute:
+
+bash
+./imc
+📖 Exemplo
+Código
+digite o seu peso(kg): 70
+digite a sua altura(cm): 1.75
+
+seu IMC:
+Classificacao: Peso ideal (Parabens!)
