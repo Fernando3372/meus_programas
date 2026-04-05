@@ -1,0 +1,84 @@
+O Cemitério Sem Fim – RPG em C++
+
+RPG de terminal desenvolvido em C++, com foco em lógica de programação, organização estrutural e controle de fluxo.
+
+O projeto implementa combate em turnos, geração probabilística de inimigos e sistema de progressão de personagem.
+
+Visão Geral
+O jogo funciona em um loop contínuo onde o jogador:
+Enfrenta monstros gerados aleatoriamente
+Gerencia vida, itens e ouro
+Evolui atributos ao subir de nível
+Interage com loja e inventário
+O objetivo principal é consolidar fundamentos da linguagem C++ aplicados a um projeto prático.
+
+Funcionalidades
+Sistema de Combate
+Combate em turnos
+Variação percentual de dano
+Sistema de acerto crítico
+Verificação para impedir ataques em monstros derrotados
+Sistema de Progressão
+XP acumulativo
+Aumento de vida máxima por nível
+Incremento linear de ataque
+Balanceamento manual de evolução
+Geração de Monstros
+Sistema baseado em probabilidade
+Controle explícito de raridade
+Balanceamento de aparição
+Sistema de Inventário
+Uso de itens dentro e fora de combate
+Respeito ao limite de vida máxima
+Estrutura organizada para armazenamento
+Loja
+Compra de itens e espadas
+Espadas aplicam bônus de dano
+Validação de entradas para evitar erros
+Estrutura do Código
+Estruturas principais
+C++
+Copiar código
+struct Jogador;
+struct Monstro;
+
+Cada estrutura encapsula atributos específicos como:
+Vida
+Ataque
+XP
+Recompensas
+Funções principais
+gerarMonstro()
+lutar()
+usarItem()
+loja()
+inventario()
+status()
+
+O projeto utiliza passagem por referência quando necessário para manter consistência de estado entre funções.
+
+Tecnologias Utilizadas
+Linguagem: C++
+Bibliotecas padrão:
+<iostream>
+<cstdlib>
+<ctime>
+Execução via terminal (CLI)
+
+Como Executar
+No terminal:
+Bash
+Copiar código
+g++ main.cpp -o jogo
+./jogo
+
+Objetivos Técnicos
+Consolidar fundamentos de C++
+Praticar uso de struct
+Trabalhar organização modular de funções
+Implementar controle de fluxo
+Exercitar lógica de balanceamento
+
+Autor
+Fernando Fernandes
+Desenvolvedor em formação, com foco em lógica, estrutura e evolução contínua.

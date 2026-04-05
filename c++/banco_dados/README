@@ -1,0 +1,67 @@
+Mini Banco de Dados em C++ (Arquivo Binário)
+Este projeto implementa um mini banco de dados em C++, utilizando arquivo binário para armazenar registros de forma persistente.
+O sistema funciona totalmente via terminal, permitindo inserir, consultar, listar e remover registros, simulando o funcionamento básico de um banco de dados real.
+
+Projeto desenvolvido 100% no celular, utilizando apenas C++ e compilador.
+
+Funcionalidades
+Inserir registros (ID, nome e idade)
+Buscar registros por ID
+Listar todos os registros
+Remover registros (remoção lógica)
+Persistência em arquivo binário
+
+Conceitos aplicados
+CRUD
+Structs
+Arquivos binários
+Persistência de dados
+Remoção lógica
+Programação em C++
+Estruturas básicas de dados
+
+Esse programa é um mini banco de dados em C++, que salva registros em um arquivo binário.
+
+Arquivo do banco
+dados.bin
+É nele que tudo fica salvo.
+
+Executando
+Bash./banco_dados
+Menu exibido:
+1 - Inserir registro
+2 - Buscar registro por ID
+3 - Listar registros
+4 - Deletar registro
+0 - Sair
+
+Inserir dados (Create)
+Escolha 1
+Informe:
+ID
+Nome
+Idade
+O programa:
+Cria um registro
+Salva no arquivo dados.bin
+Buscar dados (Read)
+
+Escolha 2
+Digite o ID
+O programa:
+Percorre o arquivo
+Mostra o registro encontrado
+Listar dados (Read)
+
+Escolha 3
+Mostra todos os registros não deletados.
+
+Deletar dados (Delete)
+Escolha 4
+Digite o ID
+O registro é marcado como deletado, não removido fisicamente (conceito real de banco de dados).
+
+Persistência
+Os dados permanecem no arquivo mesmo após fechar o programa
+Ao abrir novamente, tudo continua salvo
+

@@ -1,0 +1,78 @@
+MeuGit — Mini Controle de Versões em C++
+
+Sobre o projeto
+MeuGit é um sistema simples de controle de versões, inspirado no Git, desenvolvido em C++ e executado totalmente pelo terminal.
+O projeto permite salvar versões de arquivos (commits), manter um histórico de alterações e voltar para versões anteriores (checkout), simulando os conceitos básicos de um sistema de versionamento real.
+
+Projeto desenvolvido 100% no celular, utilizando apenas C++ e um compilador.
+
+Funcionalidades
+Inicialização de repositório
+Adição de arquivos para versionamento
+Criação de commits (salvamento de versões)
+Histórico de commits
+Restauração de versões antigas (checkout)
+Evita duplicação de arquivos
+Armazenamento local em arquivos e diretórios
+
+Conceitos aplicados
+Controle de versões
+Commits
+Hash simples para identificação
+Persistência em arquivos
+Manipulação de diretórios
+Cópia e restauração de arquivos
+Programação em C++
+
+Estrutura do projeto
+meugit.cpp
+.meugit/
+ ├── commits/
+ ├── index.txt
+ └── log.txt
+meugit.cpp → código-fonte do projeto
+.meugit/ → diretório do repositório
+commits/ → versões salvas dos arquivos
+index.txt → lista de arquivos adicionados
+log.txt → histórico dos commits
+
+Objetivo
+Projeto educacional criado para entender na prática como funciona um sistema de controle de versões, servindo como base para compreender o funcionamento do Git real, utilizando apenas C++ e terminal.
+
+▶Como usar
+
+1️Compilar
+Copiar código
+Bash
+g++ meugit.cpp -o meugit
+
+2️Inicializar o repositório
+Copiar código
+Bash
+./meugit init
+Cria a pasta .meugit com a estrutura necessária.
+
+3️Adicionar arquivos
+Copiar código
+Bash
+./meugit add arquivo.txt
+Marca o arquivo para ser incluído no próximo commit
+(evita adicionar arquivos duplicados).
+
+4️Criar um commit
+Copiar código
+Bash
+./meugit commit "Mensagem do commit"
+Salva uma nova versão dos arquivos adicionados.
+
+5️Ver histórico
+Copiar código
+Bash
+./meugit log
+Exibe todos os commits já realizados.
+
+6️Voltar para uma versão anterior
+Copiar código
+Bash
+./meugit checkout HASH_DO_COMMIT
+Restaura os arquivos exatamente como estavam naquele commit.

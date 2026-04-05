@@ -1,0 +1,67 @@
+Gerenciador de Senhas em C++ (Terminal)
+
+Sobre o projeto
+Este projeto é um Gerenciador de Senhas simples, desenvolvido em C++, que funciona totalmente pelo terminal e utiliza um arquivo binário como banco de dados.
+O sistema permite armazenar, consultar, listar e remover senhas, mantendo os dados salvos mesmo após o encerramento do programa (persistência em arquivo).
+
+Projeto desenvolvido 100% no celular, utilizando apenas C++ e compilador.
+
+Funcionalidades
+Adicionar senhas por serviço
+Buscar senha por nome do serviço
+Listar serviços cadastrados
+Remover senhas (remoção lógica)
+Armazenamento em arquivo binário
+Criptografia simples (XOR – educacional)
+
+Conceitos aplicados
+CRUD
+Structs
+Arquivos binários
+Persistência de dados
+Remoção lógica de registros
+Criptografia simples
+Programação em C++
+
+Estrutura do projeto
+gerenciador_de_senhas.cpp
+senhas.bin
+gerenciador_de_senhas.cpp → código-fonte do programa
+senhas.bin → arquivo binário que funciona como banco de dados
+
+Objetivo
+Projeto educacional criado para praticar C++, manipulação de arquivos e entender como funcionam sistemas simples de armazenamento de dados, semelhantes a um banco de dados básico.
+
+Como usar
+Compilar
+Bashg++ password_manager.cpp -o password_manager
+
+Executar
+Bash./password_manager
+Ao iniciar, o menu será exibido no terminal.
+
+Adicionar senha (Create)
+Escolha a opção 1, informe:
+Nome do serviço (ex: gmail)
+Senha
+A senha será criptografada e salva no arquivo senhas.bin.
+
+4️Buscar senha (Read)
+Escolha a opção 2 e informe o serviço.
+A senha será lida do arquivo e descriptografada apenas para exibição.
+
+5️Listar serviços (Read)
+Escolha a opção 3.
+Exibe todos os serviços cadastrados (sem mostrar as senhas).
+
+6️Remover senha (Delete)
+Escolha a opção 4 e informe o serviço.
+O registro será marcado como deletado, sem apagar fisicamente o arquivo (conceito usado em bancos de dados reais).
+
+Persistência
+Os dados permanecem salvos no arquivo senhas.bin mesmo após fechar o programa.
+Ao executar novamente, todas as informações continuam disponíveis.
+
+Observações importantes
+Projeto educacional
+Criptografia simples (XOR), não indicada para uso real
