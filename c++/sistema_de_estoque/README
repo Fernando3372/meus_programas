@@ -1,0 +1,39 @@
+Sistema de Estoque e Pedidos em C++
+Sobre:
+Programa em C++ que simula um sistema básico de estoque, cadastro de clientes e pedidos.
+Permite registrar produtos, clientes e criar pedidos vinculados, além de gerar relatórios automáticos.
+
+Funcionalidades:
+Adicionar e listar produtos
+Adicionar e listar clientes
+Criar pedidos (com verificação de estoque)
+Listar pedidos realizados
+Relatório automático com totais de produtos, clientes e pedidos
+Menu interativo para navegação
+
+Como usar:
+Salve o código em estoque.cpp.
+
+Compile:
+bash
+g++ estoque.cpp -o estoque
+Execute:
+
+bash
+./estoque
+Exemplo
+Código
+--- MENU ESTOQUE ---
+1. Adicionar produto
+2. Listar produtos
+3. Adicionar cliente
+4. Listar clientes
+5. Criar pedido
+6. Listar pedidos
+7. Relatório automático
+0. Sair
+Escolha: 1
+Nome do produto: Notebook
+Preço: 3500
+Quantidade: 10
+Produto Notebook cadastrado! ID: 1
