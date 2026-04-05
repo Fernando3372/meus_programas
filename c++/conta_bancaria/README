@@ -1,0 +1,28 @@
+Sistema Bancário Simples em C++
+Sobre:
+Programa em C++ que simula operações bancárias básicas usando uma classe chamada banco.
+Permite criar uma conta, realizar depósitos, saques e consultar o saldo.
+
+Funcionalidades:
+Criar conta com saldo inicial R$ 0
+Depositar valores
+Sacar valores (com verificação de saldo disponível)
+Consultar saldo atual
+
+Como usar:
+Salve o código em banco.cpp.
+
+Compile:
+bash
+g++ banco.cpp -o banco
+Execute:
+
+bash
+./banco
+📖 Exemplo
+Código
+Saldo atual: R$ 0
+deposito de 100 realizado com sucesso
+Saldo atual: R$ 100
+Saque de 40 realizado com sucesso!
+Saldo atual: R$ 60
