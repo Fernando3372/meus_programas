@@ -4,8 +4,6 @@ Sobre o projeto
 MeuGit é um sistema simples de controle de versões, inspirado no Git, desenvolvido em C++ e executado totalmente pelo terminal.
 O projeto permite salvar versões de arquivos (commits), manter um histórico de alterações e voltar para versões anteriores (checkout), simulando os conceitos básicos de um sistema de versionamento real.
 
-Projeto desenvolvido 100% no celular, utilizando apenas C++ e um compilador.
-
 Funcionalidades
 Inicialização de repositório
 Adição de arquivos para versionamento
